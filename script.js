@@ -1,22 +1,22 @@
-"use strict"
+// "use strict"
 
-// let arr = ['слива','дыня','123', {
-//     wer:10,
-//     ter:20
-// },'234'];
+const numberOffilms = +prompt('Сколько фильмов ты уже посмотрел?')
+const personalMovieDB = {
+    count: numberOffilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+};
 
-// console.log(arr[0,2]);
+const a = prompt('Один из последних просмотренных фильмов?','');
+      b = prompt('На сколько оцените его?',''),
+      c = prompt('Один  из последних просмотренных фильмов?',''),
+      d = prompt('На сколько оцените его?','');
 
-// let sa = confirm('are you here?');
-// let ans = +prompt('Вам есть 18?','18');
-// console.log(typeof(ans));
+    //   personalMovieDB.movies[a] = b;
+    //   personalMovieDB.movies[c] = d;
 
-// const answers = [];
+    //   console.log(personalMovieDB);
 
-// answers[0] = prompt('Как ваше имя?', '');
-// answers[1] = prompt('Как ваша фамилия?', '');
-// answers[2] = prompt('Сколько вам лет?', '');
-
-// document.write(answers);
-
-console.log(2*4 === '8');
+      const r = prompt('Один из последних просмотренных фильмов?','');
