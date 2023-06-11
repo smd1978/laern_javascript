@@ -1,22 +1,38 @@
-// "use strict"
+"use strict"
 
-const numberOffilms = +prompt('Сколько фильмов ты уже посмотрел?')
-const personalMovieDB = {
-    count: numberOffilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-};
+// const numberOffilms = +prompt('Сколько фильмов ты уже посмотрел?')
 
-const a = prompt('Один из последних просмотренных фильмов?','');
-      b = prompt('На сколько оцените его?',''),
-      c = prompt('Один  из последних просмотренных фильмов?',''),
-      d = prompt('На сколько оцените его?','');
+// const personalMovieDB = {
+//     count: numberOffilms,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     privat: false
+// };
 
-    //   personalMovieDB.movies[a] = b;
-    //   personalMovieDB.movies[c] = d;
+//     for(let i = 0; i < 2; i++){
+//       const a = prompt('Один из последних просмотренных фильмов?',''),
+//       b = prompt('На сколько оцените его?','');
 
-    //   console.log(personalMovieDB);
+//       personalMovieDB.movies[a] = b;
+//     }
+//     console.log(personalMovieDB);
 
-      const r = prompt('Один из последних просмотренных фильмов?','');
+
+
+// let tre = 6;
+// do {
+//   console.log('hfp');
+//   tre++;
+// }
+// while(tre <= 20);
+
+// const pismo = function(){
+//   return 23 +90;
+// }
+
+// console.log(pismo()) ;
+
+const len = 12.9
+
+console.log(parseInt(len));
